@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ars Conservandi — A Arte da Taxidermia</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontes do Google: Playfair Display (Serif Elegante) & Space Mono / Caveat (Detalhes) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body class="paper-texture">
+
+    <!-- Decorações e Ilustrações Flutuantes (Inspirado nos Doodles do Poster) -->
+    <svg class="doodle doodle-star1" viewBox="0 0 100 100">
+        <path d="M50 0 L58 38 L98 38 L65 60 L78 98 L50 72 L22 98 L35 60 L2 38 L42 38 Z" fill="none" stroke="#2b2b28" stroke-width="1.5"/>
+    </svg>
+    <svg class="doodle doodle-star2" viewBox="0 0 100 100">
+        <path d="M50 0 L55 42 L98 50 L55 58 L50 100 L45 58 L2 50 L45 42 Z" fill="none" stroke="#2b2b28" stroke-width="1.2"/>
+    </svg>
+
+    <!-- Cabeçalho / Navegação estilo Editorial -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="symbol">𓅓</span> ARS CONSERVANDI
+        </div>
+        <nav>
+            <a href="#about">SOBRE</a>
+            <a href="#insects">INSETOS</a>
+            <a href="#animals">VERTEBRADOS</a>
+            <a href="#methods">MÉTODOS</a>
+            <a href="#journal">DIÁRIO</a>
+        </nav>
+    </header>
+
+    <!-- Seção Principal (Hero Section) -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="sub-headline">ENTRE NO MUNDO ONDE A NATUREZA PERMANECE</span>
+            <h1 class="main-title">
+                PRESERVAR <span class="ampersand">&amp;</span><br>
+                DESCOBRIR A BELEZA<br>
+                DO IMPERMANENTE
+            </h1>
+            
+            <div class="interactive-circle" id="enterBtn">
+                <span>EXPLORAR →</span>
+            </div>
+        </div>
+
+        <div class="hero-illustration">
+            <!-- Moldura assimétrica estilo colagem vintage -->
+            <div class="image-frame main-img">
+                <img src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=800&auto=format&fit=crop" alt="Ilustração de insetos colecionados em taxidermia">
+                <span class="caption">Fig. 01 — Lepidoptera & Coleoptera</span>
+            </div>
+            <!-- Elemento de arte desenhado à mão -->
+            <div class="hand-drawn-accent">
+                <span>~ taxidermia artística ~</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Arte -->
+    <section id="about" class="about-section">
+        <div class="about-grid">
+            <div class="about-title-box">
+                <h2>SOBRE A<br><span class="highlight-text">TÉCNICA</span></h2>
+                <div class="stamp-box">
+                    <span>REGISTRO</span>
+                    <strong>Nº 1892</strong>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>A taxidermia (do grego <em>taxis</em>, "arranjo", e <em>derma</em>, "pele") é a arte de preservar a forma animal, respeitando a anatomia e celebrando a beleza natural dos seres após o fim de seu ciclo biológico.</p>
+                <p>Nossa abordagem une o rigor científico de conservação botânica e zoológica à estética editorial e surrealista da ilustração vitoriana.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Métodos de Processamento: Insetos vs Vertebrados -->
+    <section id="methods" class="methods-section">
+        <h2 class="section-heading">MÉTODOS DE PROCESSO</h2>
+
+        <!-- Card 1: Entomologia / Insetos -->
+        <article id="insects" class="method-card left-card">
+            <div class="card-media">
+                <div class="polaroid-frame">
+                    <img src="https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?q=80&w=800&auto=format&fit=crop" alt="Entomologia e Montagem de Insetos">
+                </div>
+            </div>
+            <div class="card-details">
+                <span class="step-num">01. ENTOMOLOGIA & MONTAGEM</span>
+                <h3>Taxidermia em Insetos</h3>
+                <p>Diferente dos vertebrados, a conservação de insetos (Besouros, Borboletas e Mariposas) não envolve o descarte de órgãos internos na maioria dos espécimes pequenos, focando-se na desidratação e blocagem estética.</p>
+                
+                <ul class="process-steps">
+                    <li><strong>1. Reidratação:</strong> Uso de câmara úmida com substâncias antifúngicas para amolecer as articulações do inseto seco.</li>
+                    <li><strong>2. Alfinetagem (Pinning):</strong> Fixação do corpo com alfinetes entomológicos de aço inoxidável em bloco de EVA/isopor.</li>
+                    <li><strong>3. Simetria das Asas:</strong> Expansão e alinhamento cuidadoso das asas com tiras de papel vegetal até a secagem total (7 a 14 dias).</li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- Card 2: Vertebrados / Animais Maiores -->
+        <article id="animals" class="method-card right-card">
+            <div class="card-details">
+                <span class="step-num">02. ESCULTURA & DERMOPLASTIA</span>
+                <h3>Taxidermia em Animais (Vertebrados)</h3>
+                <p>A preparação de mamíferos, aves e répteis exige conhecimento anatômico profundo, reconstrução de manequins e técnicas tradicionais de curtimento de pele.</p>
+                
+                <ul class="process-steps">
+                    <li><strong>1. Ecorchamento & Limpeza:</strong> Remoção cuidadosa da pele, descarte de tecidos orgânicos e tratamento contra pragas.</li>
+                    <li><strong>2. Curtimento da Pele:</strong> Banho em soluções salinas e tanantes que preservam a elasticidade e evitam a deterioração do couro e pelos/penas.</li>
+                    <li><strong>3. Manequim e Montagem:</strong> Escultura do corpo em poliuretano ou fibra vegetal (palha/madeira) e ajuste anatômico minucioso dos olhos de resina e feições.</li>
+                </ul>
+            </div>
+            <div class="card-media">
+                <div class="polaroid-frame rotate-right">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop" alt="Estrutura anatômica em taxidermia">
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 3: Diaphanization / Diafanização (Método Especial) -->
+        <article class="method-card full-card">
+            <div class="card-details">
+                <span class="step-num">03. TÉCNICA AVANÇADA</span>
+                <h3>Diafanização (Diafanização de Espécimes)</h3>
+                <p>Um método científico-artístico onde a carne do animal se torna completamente transparente enquanto os ossos e cartilagens são tingidos em tons vibrantes de azul (Alcian Blue) e vermelho (Alizarin Red).</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Rodapé Minimalista Vintage -->
+    <footer class="site-footer">
+        <p>© 2026 Ars Conservandi — Pesquisa & Preservação Estética.</p>
+        <div class="footer-doodle">✦ ✦ ✦</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
